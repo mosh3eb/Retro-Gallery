@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Sketch Haven</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="nav-container">
+        <nav>
+            <div class="logo">RetroSketch</div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </div>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="typewriter">Welcome to RetroSketch</h1>
+            <p class="hero-description">Step into a world where vintage meets art, where every pixel tells a story, and
+                where nostalgia comes alive through sketches.</p>
+            <button class="vintage-button">Explore Gallery</button>
+        </div>
+    </section>
+
+    <section class="sketch-container" id="gallery">
+        <div class="sketch-grid">
+            <div class="sketch-card" data-aos="fade-up">
+                <img src="https://picsum.photos/800/600?random=1" alt="Vintage Sketch 1">
+                <h3>Vintage Dreams</h3>
+                <p>A journey through time captured in strokes of nostalgia.</p>
+            </div>
+            <div class="sketch-card" data-aos="fade-up" data-aos-delay="100">
+                <img src="https://picsum.photos/800/600?random=2" alt="Vintage Sketch 2">
+                <h3>Retro Vibes</h3>
+                <p>Where memories meet artistry in perfect harmony.</p>
+            </div>
+            <div class="sketch-card" data-aos="fade-up" data-aos-delay="200">
+                <img src="https://picsum.photos/800/600?random=3" alt="Vintage Sketch 3">
+                <h3>Timeless Art</h3>
+                <p>Each sketch tells a story from yesteryears.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <div class="polaroid-container">
+            <div class="polaroid" data-aos="flip-left">
+                <img src="https://picsum.photos/800/600?random=4" alt="Polaroid 1">
+                <p>Summer of '82</p>
+            </div>
+            <div class="polaroid" data-aos="flip-left" data-aos-delay="100">
+                <img src="https://picsum.photos/800/600?random=5" alt="Polaroid 2">
+                <p>Vintage Memories</p>
+            </div>
+            <div class="polaroid" data-aos="flip-left" data-aos-delay="200">
+                <img src="https://picsum.photos/800/600?random=6" alt="Polaroid 3">
+                <p>Retro Dreams</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 RetroSketch. <a href="https://www.linkedin.com/in/Momo">Momo</a></p>
+        <div class="social-icons">
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-facebook"></a>
+        </div>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
