@@ -288,6 +288,7 @@ footer p a {
     text-decoration: none;
     font-weight: bold;
     color: var(--background);
+    cursor: pointer;
 }
 
 .social-icons {
